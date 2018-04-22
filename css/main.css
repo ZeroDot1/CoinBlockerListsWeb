@@ -1,0 +1,110 @@
+  /* DarkGreen Homepage Style © 2018 by ZeroDot1 */
+
+  html, body {
+    font: 90% Verdana, Arial, Helvetica, sans-serif;
+    border-left: 20pt solid black;
+    border-right: 20pt solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @viewport {
+    zoom: 1.0;
+    width: device-width;
+  }
+
+  #bg {
+    background-color: black;
+    color: white;
+  }
+
+  a {
+    color: #BBDF07;
+  }
+
+  #seite {
+    width: 100%;
+    color: white;
+    background-color: black;
+  }
+
+  #head {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    padding-top: 18pt;
+    border-top: 2pt solid #BBDF07;
+    margin-top: 10pt;
+  }
+
+  #contend {
+    text-align: justify;
+    color: white;
+    background-color: black;
+    margin-left: 250px;
+    border-top: 1pt solid #BBDF07;
+    border-left: 20pt solid black;
+    padding-bottom: 5em;
+  }
+
+  #container {
+    border-top: 1pt solid #BBDF07;
+    border-bottom: 1pt solid #BBDF07;
+    border-left: 1pt solid #BBDF07;
+    border-right: 1pt solid #BBDF07;
+    text-align: justify;
+  }
+
+  #menu {
+    text-align: justify;
+    color: white;
+    float: left;
+    width: 250px;
+    background-color: black;
+  }
+
+  ul {
+    margin: 15px 0;
+    padding: 0;
+    list-style-type: square;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  #footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    width: 100%;
+    font-size: 10px auto;
+    height: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    background: black;
+    border-top: 8pt solid black;
+    border-bottom: 10pt solid black;
+  }
+
+  #contentimg1 {
+    float: left;
+    width: 34px;
+    height: auto;
+    margin: 0.2em;
+  }
