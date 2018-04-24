@@ -109,6 +109,11 @@
     margin: 0.2em;
   }
 
+  #contentimg2 {
+    width: 110px;
+    height: auto;
+  }
+
   /* Table Style */
 
   .tg {
