@@ -105,13 +105,28 @@
   #contentimg1 {
     float: left;
     width: 34px;
-    height: auto;
+    height: 34px;
     margin: 0.2em;
+    filter: opacity(80%);
   }
 
   #contentimg2 {
     width: 110px;
-    height: auto;
+    height: 110px;
+    border-top: 1pt solid #BBDF07;
+    border-bottom: 1pt solid #BBDF07;
+    border-left: 1pt solid #BBDF07;
+    border-right: 1pt solid #BBDF07;
+    filter: grayscale(60%);
+  }
+
+  #contentimg2:hover {
+    border-top: 2pt solid #BBDF07;
+    border-bottom: 2pt solid #BBDF07;
+    border-left: 2pt solid #BBDF07;
+    border-right: 2pt solid #BBDF07;
+    filter: grayscale(10%);
+    filter: opacity(90%);
   }
 
   /* Table Style */
