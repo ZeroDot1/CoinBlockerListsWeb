@@ -129,6 +129,11 @@
     filter: opacity(90%);
   }
 
+  iframe[src*="//youtube.com/"], iframe[src*="//www.youtube.com/"] {
+    display: block;
+    margin: auto;
+  }
+
   /* Table Style */
 
   .tg {
