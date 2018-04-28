@@ -5,7 +5,7 @@ function openColorBox(){
           iframe:true,
           width:"50%",
           height:"50%",
-          href: "donate.html",
+          href: "https://zerodot1.github.io/CoinBlockerListsWeb/donate.html",
           onLoad: function() {
             $('#cboxClose').remove();
             setTimeout(function(){
