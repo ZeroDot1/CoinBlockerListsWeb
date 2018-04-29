@@ -1,28 +1,28 @@
 //alert("Hello CoinBlockerLists User!\n!!!Warning!!! This page is still under construction!!!");
 
-function openColorBox(){
-        $.colorbox({
-          iframe:true,
-          width:"50%",
-          height:"50%",
-          href: "https://zerodot1.github.io/CoinBlockerListsWeb/donate.html",
-          onLoad: function() {
-            $('#cboxClose').remove();
-            setTimeout(function(){
-              $(window).colorbox.close();
-            }, 9000)
-          }
-        });
-      }
+document.getElementById('myBtn').click()
+// Get the modal
+var modal = document.getElementById('myModal');
 
-      function countDown(){
-        seconds--
-        $("#seconds").text(seconds);
-        if (seconds === 0){
-          openColorBox();
-          clearInterval(i);
-        }
-      }
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-      var seconds = 5,
-          i = setInterval(countDown, 1000);
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
