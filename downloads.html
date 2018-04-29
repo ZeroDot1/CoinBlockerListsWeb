@@ -22,6 +22,9 @@
   <meta name="language" content="en">
   <link rel='dns-prefetch' href='//github.com'>
   <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='js/bootstrap.min.js' charset="utf-8"></script>
   <script src='js/main.js' charset="utf-8"></script>
   <link rel='icon' href='img/favicon.png' type='image/x-icon'>
   <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon'>
@@ -44,20 +47,32 @@
 
 <body id="bg">
 
-  <!-- Trigger/Open The Modal -->
-  <button id="myBtn" style="display:none;">Open Modal</button>
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <<p align="center" style="font-weight: bold; font-size: 35px;">Donate</p>
-      <p>If the CoinBlockerLists help you and you like the project, support me with a donation via my Amazon wish list.</p>
-      <br>
-      <p>Every donation helps to keep the CoinBlockerLists up to date.</p>
-      <form method="get" action="https://vk.cc/7TL5H2" target="_blank">
-        <button type="submit" style="font-weight: bold; font-size: 25px;">Donate</button>
-      </form>
+  <button type="button" id="autoload" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="display: none; ">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: black; text-align: center; font-size: 20px; font-weight: bold;">Donate</h4>
+        </div>
+        <div class="modal-body">
+          <p style="color: black; text-align:center;">If the CoinBlockerLists help you and you like the project, support me with a donation via my Amazon wish list.</p>
+          <br>
+          <p style="color: black; text-align: center;">Every donation helps to keep the CoinBlockerLists up to date.</p>
+          <br>
+          <p style="color: black; text-align: center;">Thank you for your support.</p>
+          <br>
+          <form method="get" action="https://vk.cc/7TL5H2" target="_blank">
+            <center><button type="submit" style="color: #BBDF07; font-weight: bold; font-size: 25px; text-align: center;">Donate</button></center>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
