@@ -134,6 +134,33 @@
     margin: auto;
   }
 
+  #btn {
+    background: #8cd934;
+    background-image: -webkit-linear-gradient(top, #8cd934, #b3b82b);
+    background-image: -moz-linear-gradient(top, #8cd934, #b3b82b);
+    background-image: -ms-linear-gradient(top, #8cd934, #b3b82b);
+    background-image: -o-linear-gradient(top, #8cd934, #b3b82b);
+    background-image: linear-gradient(to bottom, #8cd934, #b3b82b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px 4px 0px 5px;
+    text-decoration: none;
+  }
+
+  #btn:hover {
+    background: #fcfc3c;
+    background-image: -webkit-linear-gradient(top, #fcfc3c, #d9bd34);
+    background-image: -moz-linear-gradient(top, #fcfc3c, #d9bd34);
+    background-image: -ms-linear-gradient(top, #fcfc3c, #d9bd34);
+    background-image: -o-linear-gradient(top, #fcfc3c, #d9bd34);
+    background-image: linear-gradient(to bottom, #fcfc3c, #d9bd34);
+    text-decoration: none;
+  }
+
   /* Table Style */
 
   .tg {
